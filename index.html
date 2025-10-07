@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#" class="nav-link" data-index="0">About Me</a>
+    <a href="#" class="nav-link" data-index="1">Education</a>
+    <a href="#" class="nav-link" data-index="2">Skills</a>
+    <a href="#" class="nav-link" data-index="3">Projects</a>
+    <a href="#" class="nav-link" data-index="4">Contact</a>
+  </nav>
+
+  <!-- Horizontal Pages Container -->
+  <div id="pages-container">
+    
+    <!-- About Me -->
+    <section class="page">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-image">
+          <img src="self.jpg" alt="Dechen Tshomo">
+        </div>
+        <div class="about-text">
+          <p>
+            I was born on May 22, 2004, and I live with my parents in Phuntsholing. 
+            I’m originally from Nanong, Pemagatshel, and I am currently pursuing a Bachelor of Education in Information Technology at Samtse College of Education.
+            I have a keen interest in fashion and enjoy exploring new styles through shopping. In my free time, I love going out with friends to share good food and laughter, listening to music, watching reality shows, and gaming. 
+            I also enjoy quiet moments at home, relaxing and scrolling through social media. My goal is to achieve financial success so I can live comfortably and shop without worrying about price tags.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="page">
+      <h2>Education</h2>
+      <div class="edu-page">
+        <p>Mongar Lower Secondary School – PP to 8</p>
+        <p>Time: 2010 – 2018</p>
+        <img src="mongar.jpg" alt="Mongar Lower Secondary School">
+      </div>
+      <div class="edu-page">
+        <p>Sonamgang Middle Secondary School – Class 9 to 10</p>
+        <p>Time: 2019 – 2020</p>
+        <img src="sonamg.jpg" alt="Sonamgang Middle Secondary School">
+      </div>
+      <div class="edu-page">
+        <p>Phuntsholing Higher Secondary School – Class 11 to 12</p>
+        <p>Time: 2021 – 2022</p>
+        <img src="pling.jpg" alt="Phuntsholing Higher Secondary School">
+      </div>
+      <div class="edu-page">
+        <p>Samtse College of Education – B.Ed in ICT (3rd year)</p>
+        <p>Time: 2023 – 2027</p>
+        <img src="college.jpg" alt="Samtse College of Education">
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="page">
+      <h2>Skills</h2>
+      <div class="skill-category">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>MySQL & Database Management</li>
+          <li>Python Programming</li>
+          <li>Video Editing (VDT)</li>
+          <li>Web Development</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>ICT Pedagogy</li>
+          <li>Communication & Teamwork</li>
+          <li>Problem-Solving</li>
+          <li>Critical Thinking</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="page">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Making a traffic light (Physics Project)</h3>
+          <p>Worked on designing a traffic light model in our physics project...</p>
+          <img src="project1.jpg" alt="Project 1">
+        </div>
+        <div class="card project">
+          <h3>Online Book Management System (DDD Project)</h3>
+          <p>In group, we developed an Online Book Management System using MySQL...</p>
+          <img src="project2.jpg" alt="Project 2">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="page">
+      <h2>Contact</h2>
+      <p>Email me at: <a href="mailto:dechtsh04@gmail.com">dechtsh04@gmail.com</a></p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Dechen Tshomo</p>
+    <p class="footer-tagline">Learning Tech One Step at a Time</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
